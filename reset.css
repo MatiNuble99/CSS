@@ -1,0 +1,82 @@
+/* Reset CSS */
+
+/* Establece los valores iniciales para los elementos comunes */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+/* Establece el tamaño de fuente predeterminado para todos los elementos */
+body {
+    line-height: 1;
+}
+
+/* Establece la apariencia de elementos que pueden tener contenido adicional */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Elimina los estilos de lista y de borde de los elementos de lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Corrige la visualización de las imágenes alineadas verticalmente */
+img {
+    vertical-align: middle;
+}
+
+/* Corrige la redimensión de los elementos de la tabla en algunos navegadores */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Corrige los errores de desbordamiento de texto en IE9 y posteriores */
+/* Añadir prefijos de vendor para navegadores más antiguos */
+pre {
+    white-space: pre-wrap;
+}
+
+/* Elimina el espacio adicional alrededor de los elementos multimedia en IE, Firefox y Webkit */
+audio, canvas, video {
+    display: inline-block;
+    
+}
+
+/* Corrige el estilo del borde y el espacio en blanco de los elementos iframe en IE 7 y posteriores */
+iframe {
+    border: 0;
+}
+
+/* Corrige los problemas de visualización en las versiones antiguas de Firefox y Safari */
+/* Añadir prefijos de vendor para navegadores más antiguos */
+blockquote, q {
+    quotes: none;
+}
+
+/* Corrige los errores de renderización en IE 8 y posteriores */
+/* Añadir prefijos de vendor para navegadores más antiguos */
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}

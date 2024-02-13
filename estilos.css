@@ -1,0 +1,75 @@
+/*JERARQUIA DE SELECTORES 1° #ID 2° .CLASS 3° ETIQUETA*/
+.fondos {
+    color: rgb(255, 238, 0);
+}
+.texto {
+    color: rgba(5, 160, 70, 0.781);
+    font-size: 18px;
+}
+header{
+    background-color: aquamarine;
+}
+h4{
+    background-color: darkolivegreen;
+}
+.title{
+    /*EM REFIERE AL TAMAÑO DE LA FUENTE PREDETERMINADA*/
+    font-size: 2em;
+    color: darkorchid;
+}
+#pricipal{
+    font-size: 20em;
+}
+.logo{
+    width: 300px;
+    height: 300px;
+    
+}
+#titulos{
+    /* viewport width 65% de la pantalla de donde este */
+    width: 65vw;
+    /*MARGIN SEPARA DENTRO DEL BODY*/
+    margin: auto;
+    /*PADDING SEPARA DENTRO DEL BORDE*/
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+border: 2px solid black;
+width: fit-content;
+/*DE ACUERDO CON LAS AGUJAS DEL RELOJ*/
+padding: 1em 1em 2em 1em;
+border-radius: 10%;
+transition: 1s;
+/*al contener dos elementos puede actuar como flex*/
+display: flex;
+flex-direction: column;
+/*genere espacio dentro del elemento*/
+gap: 2em;
+/*align items alinea los elementos */
+align-items: center;
+}
+.cards:hover{
+    /*PSEUDO SELECTORES*/
+    /*identificadores que se añaden a los selectores para especificar un estado especial del elemento que se está seleccionando. Estos pseudo-selectores permiten aplicar estilos a elementos que no se pueden seleccionar con los selectores tradicionales */
+    background-color: cornflowerblue;
+}
+/*CONTENEDOR TIPO FLEX (FELXBOX)*/
+#cards-container{
+    background-color: brown;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(31, 29, 29);
+    border-radius: 5%;
+    padding: 2em;
+    /*display flex sirve para ajustar posicionar elementos dentro del div principal*/
+    display: flex;
+    /*comportamiento determinado de flex es poner en fila elementos*/
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
